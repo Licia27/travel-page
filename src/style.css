@@ -66,7 +66,7 @@ body {
   
   header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)),
-      url("/images/background.png");
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/160/019/original/background.jpg?1741785409");
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -148,7 +148,7 @@ body {
         rgba(39, 32, 68, 0.9),
         rgba(39, 32, 68, 0.9)
       ),
-      url("../images/footer.png");
+      url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/160/022/original/footer.jpeg?1741786282");
   
     background-repeat: no-repeat;
     background-size: cover;
