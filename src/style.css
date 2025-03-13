@@ -16,7 +16,7 @@ body {
   .img-responsive {
     max-width: 100%;
     object-fit: cover;
-    height: 200px;
+    height: 150px;
   }
   
   .grid-2-columns {
