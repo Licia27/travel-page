@@ -7,6 +7,7 @@ body {
     max-width: 1400px;
     margin: 0 auto;
   }
+  
   .grid {
     display: grid;
     grid-gap: 64px;
@@ -20,9 +21,14 @@ body {
     grid-template-columns: 1fr 1fr;
   }
   
+  .grid-3-columns {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
   .grid-3-columns-with-first-narrow {
     grid-template-columns: 1fr 2fr 2fr;
   }
+  
   .embed {
     width: 100%;
     aspect-ratio: 1 /1;
@@ -31,11 +37,13 @@ body {
   .instagram-embeds {
     margin: 30px 0;
   }
+  
   section {
     max-width: 1200px;
     margin: 0 auto;
     padding: 100px 0;
   }
+  
   .card {
     background: white;
     margin: 30px 0;
@@ -110,6 +118,7 @@ body {
     text-transform: uppercase;
     background: white;
   }
+  
   main {
     background-color: white;
   }
@@ -141,13 +150,11 @@ body {
     color: #272044;
     opacity: 0.7;
   }
-
+  
   footer {
     color: white;
-    background-image: linear-gradient(
-        rgba(39, 32, 68, 0.9),
-        rgba(39, 32, 68, 0.9)
-      ),
+    background-image: linear-gradient(rgba(39, 32, 68, 0.9),
+        rgba(39, 32, 68, 0.9)),
       url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/160/022/original/footer.jpeg?1741786282");
   
     background-repeat: no-repeat;
@@ -200,20 +207,27 @@ body {
     header h3 {
       font-size: 12px;
     }
-
+  
     .grid {
-        grid-template-columns: 1fr;
-        grid-gap: 32px;
-      }
-    
-      section {
-        padding: 30px;
-      }
-      .card-header img {
-        display: none;
-      }
-    
-      .embed {
-        aspect-ratio: 16 / 9;
-      }
+      grid-template-columns: 1fr;
+      grid-gap: 32px;
+    }
+  
+    section {
+      padding: 30px;
+    }
+  
+    .card-header img {
+      display: none;
+    }
+  
+    .embed {
+      aspect-ratio: 16 / 9;
+    }
   }
+  
+  .card-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
