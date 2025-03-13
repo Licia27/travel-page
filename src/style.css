@@ -15,7 +15,8 @@ body {
   
   .img-responsive {
     max-width: 100%;
-    background-size: cover;
+    object-fit: cover;
+    height: 200px;
   }
   
   .grid-2-columns {
@@ -46,9 +47,8 @@ body {
     padding: 100px 0;
     
   }
-  .secondary {
-    color: aliceblue;
-  }
+
+  
   .card {
     background: white;
     margin: 30px 0;
